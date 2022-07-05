@@ -1,0 +1,6 @@
+Lucho, Dominguez, Mexico, Español, Aeropuerto Internacional de Toluca
+Jean, Paul Gaultier, Francia, Frances, Aeropuerto Internacional de la Ciudad de México
+John, Doe, Alemania, Alemán, Aeropuerto Internacional de Monterrey,
+William, Smith, Brasil, Portugués, Aeropuerto Internacional de Chihuahua
+Margot, Robbie, Australia, Inglés, Aeropuerto Internacional de Ciudad Juárez
+Elliot, Alderson, Estados Unidos, Inglés, Aeropuerto Internacional de la Ciudad de México
