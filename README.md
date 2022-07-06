@@ -5,7 +5,7 @@ realizar una petición POST HTTP hacia un servicio corriendo Spring Boot.
 
 # Ejecución
 
-Descargar la aplicación desde este repositorio y ejecutarla con el comando:
+La aplicación puede ser descargada desde este repositorio y después ser ejecutada con el siguiente comando:
 ```bash
 python main.py
 ```
