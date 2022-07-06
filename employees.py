@@ -7,7 +7,7 @@ Date: 5-july-2022
 Clase que representa el objeto a ser
 mandado como payload de una solicitud HTTP.
 '''
-class ClientRequest(object):
+class EmployeeRequest(object):
     def __init__(self, firstname, surname, country, language, airport):
         self.__firstname = firstname
         self.__surname   = surname
@@ -26,29 +26,29 @@ class ClientRequest(object):
 
 
 '''
-Clase que obtiene los clientes de
+Clase que obtiene los empleados de
 un archivo de texto.
 '''
-class ClientFile:
+class EmployeeFile:
     
-    __filepath = "Clientes.txt"
+    __filepath = "Empleados.txt"
     __encoding = "utf-8"
 
-    def getClients(self):
-        clients = []
+    def getEmployees(self):
+        employees = []
         
         try:
-            with open(ClientFile.__filepath, "rt", encoding = ClientFile.__encoding) as write_obj:
+            with open(EmployeeFile.__filepath, "rt", encoding = EmployeeFile.__encoding) as write_obj:
 
                 for line in write_obj.readlines():
                     result = line.split(",")
 
-                    clients.append(ClientRequest(result[0].strip(), 
-                                                 result[1].strip(),
-                                                 result[2].strip(),
-                                                 result[3].strip(),
-                                                 result[4].strip()))
+                    employees.append(EmployeeRequest(result[0].strip(), 
+                                                     result[1].strip(),
+                                                     result[2].strip(),
+                                                     result[3].strip(),
+                                                     result[4].strip()))
         except IOError as error:
             print(error)
 
-        return clients
+        return employees
