@@ -1,7 +1,7 @@
 # ClientAirportService
 
 Aplicación que actúa como un cliente para poder
-realizar una petición POST HTTP hacia un servicio corriendo Spring Boot.
+realizar una petición POST HTTP hacia un servicio web (AirportService) corriendo Spring Boot.
 
 # Ejecución
 
