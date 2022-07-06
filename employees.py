@@ -3,6 +3,7 @@ Author: Joel Rubio
 Date: 5-july-2022
 '''
 
+
 '''
 Clase que representa el objeto a ser
 mandado como payload de una solicitud HTTP.
